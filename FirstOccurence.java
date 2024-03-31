@@ -1,9 +1,7 @@
 public class FirstOccurence {
     public static void firstOccurence(int[] arr,int target,int i){
-        if(i==arr.length-1){
-            if(arr[i]==target){
-                System.out.println(i);
-            }
+        if(i==arr.length){
+            
             return;
         }
         if(arr[i]==target){
